@@ -1,5 +1,5 @@
 # Brake Light Detector
-OpenCV python code for detecting brake light activation
+OpenCV python code for detecting brake light activation.  Detection code auto-calirbates min/max pixel values within each detection region to compute detection threshold.  Detection regions are defined in a json file.
 
 ![Example image](https://github.com/jcl5m1/brakelight/blob/main/images/example.jpg?raw=true)
 
